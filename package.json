@@ -1,0 +1,21 @@
+{
+  "name": "api-node-padronizada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cria-tabelas-no-banco": "node .\\api\\banco-de-dados\\conexao-banco.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "jsontoxml": "^1.0.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.1"
+  }
+}
